@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="clock.js"></script> 
+        <meta charset = "UTF-8">
+        <title>HANS-OS</title>
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "style.css"/>
+    </head>
+    <body onload="getTime()">
+        <p id="clock">Error, klokke ble aldri oppdatert</p>
+        <div id=vekkeKlokke>
+            <div id="vekkeTopp">
+                <button onclick="tid(1)">▲</button>
+                <button onclick="tid(2)">▲</button>
+                <button class="hidden">:</button>
+                <button onclick="tid(4)">▲</button>
+                <button onclick="tid(5)">▲</button>
+            </div>
+            <p id="vekkeTid" onclick="påav()">07:00🔕</p>
+            <div id="vekkeBunn">
+                <button onclick="tid(-1)">▼</button>
+                <button onclick="tid(-2)">▼</button>
+                <button class="hidden">:</button>
+                <button onclick="tid(-4)">▼</button>
+                <button onclick="tid(-5)">▼</button>
+            </div>
+        </div>
+        <p id="info">HANS-OS V.1 (Høylytt Agresivt Nettbasert Systematisk - OpvåkningsSystem)</p>
+    </body>
+</html>

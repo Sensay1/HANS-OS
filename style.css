@@ -1,0 +1,71 @@
+/*Min stiiiiil*/
+
+:root{
+    --bakrundsfarge: black;
+    --textfarge: white;
+    font-size: 100px;
+}
+
+body {
+    background-color: var(--bakrundsfarge);
+    color: var(--textfarge);
+    margin: 0;
+    /*overflow: hidden;*/
+}
+p{
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    position: fixed;
+}
+
+button{
+    display:inline-block;
+    border: none;
+    text-decoration: none;
+    background-color: Transparent;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--textfarge);
+    font-size: 1rem;
+    padding: 0px;
+    float: left;
+    cursor:pointer;
+}
+
+.hidden{
+    background-color: Transparent;
+    color: transparent;
+    cursor: none;
+}
+
+#clock {
+    margin: 10px;
+    margin-top: 0;
+    font-size: 1.75rem;
+}
+
+#vekkeKlokke {
+    margin: 10px;
+    margin-top: 125px;
+}
+
+#vekkeTopp {
+    margin-top: 0px;
+    transform: scale(1, 0.3);
+}
+#vekkeTid {
+    margin-top: 52px;
+    z-index: -1;
+}
+#vekkeBunn {
+    margin-top: 100px;
+    transform: scale(1, 0.3);
+}
+
+#info {
+    font-size: 16px;
+    width: 100vw;
+    margin-top: calc(100vh - 20px);
+    text-align: right;
+}
